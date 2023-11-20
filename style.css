@@ -1,0 +1,108 @@
+.all {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffcc00; /* Warna latar kuning */
+}
+
+.header {
+    background-color: #2c3e50; /* Warna latar biru tua */
+    color: #ecf0f1; /* Warna teks putih */
+    position: relative; /* Mengubah posisi menjadi relative */
+    padding: 20px; /* Menambahkan padding yang lebih besar */
+    text-align: center;
+}
+
+.nav {
+    background-color: #3498db; /* Warna latar biru */
+    overflow: hidden;
+}
+
+.navbtn {
+    text-decoration: none;
+    color: white;
+    background-color: #34495e; /* Warna tombol biru tua */
+    border: 2px solid #2c3e50; /* Warna border biru tua */
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    padding: 14px 16px;
+    border-radius: 5px; /* Corner border yang sedikit melengkung */
+}
+
+.navbtn:hover {
+    background-color: #2c3e50; /* Warna tombol menjadi biru tua saat dihover */
+    color: #3498db; /* Warna teks menjadi biru saat dihover */
+}
+
+.navbtn:active {
+    background-color: #3498db; /* Warna tombol menjadi biru saat ditekan */
+    color: #2c3e50; /* Warna teks menjadi biru tua saat ditekan */
+}
+
+.post {
+    width: 100%;
+    margin-bottom: 20px; /* Menambahkan margin bawah antar post */
+}
+
+.hasil {
+    padding: 20px;
+    width: 80%;
+    margin: 0% 10%;
+    border: 1px solid #3498db; /* Warna border biru */
+    background-color: #ecf0f1; /* Warna latar putih keabu-abuan */
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #3498db; /* Warna border biru */
+    border-collapse: collapse;
+    padding: 10px; /* Menambahkan padding pada sel tabel */
+}
+
+th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.stick {
+    position: sticky;
+    top: 0;
+}
+
+.form {
+    padding: 20px;
+    width: 80%;
+    margin: 0% 10%;
+    border: 2px solid #2c3e50; /* Warna border biru tua */
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+label {
+    text-align: left; /* Mengubah posisi teks label menjadi kiri */
+}
+
+.in1, .in2 {
+    padding: 10px; /* Menambahkan padding pada input fields */
+    border: 2px solid #95a5a6; /* Warna border abu-abu */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.btn1 {
+    padding: 10px 20px; /* Menambahkan padding pada tombol */
+    float: right;
+}
+
+h2 {
+    margin: 2% 0; /* Mengubah margin atas dan bawah */
+    padding: 0;
+}
